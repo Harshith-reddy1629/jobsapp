@@ -1,0 +1,130 @@
+@media (max-width: 576px) {
+  * {
+    margin: 0;
+  }
+
+  .login-container {
+    height: 100dvh;
+  }
+
+  .login-card {
+    width: 80%;
+  }
+  .input-container > input {
+    margin-bottom: 12px;
+  }
+  .input-container > label {
+    margin-top: 3px;
+  }
+  .btn > button {
+    padding: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+
+    height: 100dvh;
+  }
+  .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    padding-left: 3px;
+    gap: 0;
+  }
+  .home-ul {
+    gap: 0px;
+  }
+  .nav-logout-button {
+    padding: 5px;
+  }
+  .find-job-head {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .find-job-para {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .jobs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+  .profile-card {
+    margin: 0;
+    margin: 18px;
+  }
+  .category-heading {
+    /* text-align: center; */
+    margin: 12px;
+  }
+  ul {
+    margin: 0px;
+    padding: 0%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 6px;
+  }
+  .type-li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .job-item-card {
+    padding: 0%;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+  .jobs-display {
+    padding: 0%;
+  }
+  .Li-button {
+    margin: 0px;
+    /* padding: 0%; */
+  }
+  .j-ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container2 {
+    background-color: black;
+    margin: 0;
+    padding: 0%;
+  }
+  .jobs-display {
+    margin: 0em;
+    padding: 0px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .life-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .life-con > div > img {
+    border-radius: 12px;
+    margin-top: 12px;
+    margin: 12px;
+  }
+  .similar-container {
+    flex-direction: column;
+  }
+  .skill-li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .skill-li > img {
+    height: 30px;
+    margin: 0px;
+    gap: 8px;
+  }
+  .mob {
+    height: 80px;
+  }
+}
